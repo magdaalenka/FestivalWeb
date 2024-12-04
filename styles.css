@@ -173,6 +173,10 @@ footer {
     font-size: 38px;
 }
 
+.social-icons .fa:hover {
+    color: rgb(102, 96, 108);
+}
+
 .fa-facebook-f {
     color: #4444d3;
 }
@@ -196,6 +200,15 @@ footer {
     padding: 0;
     gap: 24px;
     font-size: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link a:hover {
+    color: rgb(185, 141, 227);
 }
 
 .copyright {
