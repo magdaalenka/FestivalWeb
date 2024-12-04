@@ -1,0 +1,177 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+
+.navbar {
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 26px;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 16px 0 16px 0;
+    background: black;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: rgb(137, 10, 255);
+}
+
+.merch-intro {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/festival.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.merch-intro h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    position: relative;
+    top: 40%;
+}
+
+.merch-produkty {
+    text-align: center;
+}
+
+.merch-produkty h2 {
+    font-size: 36px;
+    padding-top: 2%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 17%;
+    position: relative;
+    left: 41.6%;
+    transition: 0.3s ease;
+}
+.cart:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.search:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.user:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.testimonial-merch {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    width: 100%;
+    padding-bottom: 3%;
+    padding-left: 16.7%;
+}
+
+.merch-card {
+    padding: 2%;
+}
+
+.merch-card h3, h4 {
+    font-size: 24px;
+}
+
+.merch-card button {
+    font-size: 24px;
+    background-color: #a40bee;
+    color: white;
+    border-radius: 10px;
+    margin: 0;
+    border-color: #a40bee;
+    border-style: solid;
+    padding: 5px 8px 5px 8px;
+}
+.merch-card img {
+    padding-bottom: 7%;
+}
+.merch-card button:hover {
+    background-color: #dc08c2;
+    color:white;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+footer {
+    padding: 16px 0 16px 0;
+    background-color: black;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icons .fa {
+    font-size: 38px;
+}
+
+.social-icons .fa:hover {
+    color: rgb(205, 203, 203);
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    color: #4444d3;
+}
+.fa-instagram {
+    color: #ea147d;
+}
+
+.fa-youtube-play {
+    color: #ff0101;
+}
+
+.fa-twitter{
+    color: #376fe1;
+}
+
+.footer-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 24px;
+    font-size: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link a:hover {
+    color: rgb(185, 141, 227);
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 0 10px;
+}
