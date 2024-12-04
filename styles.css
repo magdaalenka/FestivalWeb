@@ -160,6 +160,7 @@ header {
 
 footer {
     padding: 16px 0 16px 0;
+    background-color: black;
 }
 
 .social-icons {
@@ -185,4 +186,20 @@ footer {
 
 .fa-twitter{
     color: #376fe1;
+}
+
+.footer-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 24px;
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
