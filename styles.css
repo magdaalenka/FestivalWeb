@@ -40,7 +40,7 @@ header {
 }
 
 .about-festival h3 {
-    font-size: 48px;
+    font-size: 58px;
 }
 
 .about-festival{
@@ -57,7 +57,7 @@ header {
 #first-container {
     background-color: rgb(255, 255, 255);
     width: 700px;
-    margin: 200px auto 100px auto;
+    margin: 150px auto 100px auto;
     padding: 24px;
     border-radius: 20px;
     position: relative;
@@ -175,6 +175,7 @@ footer {
 
 .social-icons .fa:hover {
     color: rgb(102, 96, 108);
+    cursor: pointer;
 }
 
 .fa-facebook-f {

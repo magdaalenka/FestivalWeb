@@ -1,0 +1,44 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+
+.navbar {
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 16px 0 16px 0;
+    background: black;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: rgb(137, 10, 255);
+}
+
+.tickets-testimonials {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    background-image: url("images/festival.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.tickets-testimonials h2 {
+
+}
